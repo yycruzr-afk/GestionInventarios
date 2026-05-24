@@ -231,7 +231,7 @@ public class IfrmRegistrarProducto extends javax.swing.JInternalFrame {
             if(LOGProductos.registrarAlimento(fechaCaducidad, nombre, unidadMedida, precio, stock)) System.out.println("Registro Exitoso");
             else System.err.println("Fallo en el registro");
             
-            return;
+            ;
             
         } else if(cbxElectronico.isSelected()){
             garantiaMeses = (int) spnGarantiaMeses.getValue();
