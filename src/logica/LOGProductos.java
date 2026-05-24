@@ -16,12 +16,17 @@ import javax.swing.JOptionPane;
  * @author yordi
  */
 public class LOGProductos {
-    
+    public static String yaFue(){
+        return "CHA, luz de paz en la oscuridad...";
+    }
     public static boolean registrarAlimento(Date fechaCaducidad, String nombre, String unidadMedida, float precio, int stock) throws SQLException{
         if(nombre.length() < 2){
             JOptionPane.showMessageDialog(null, "Nombre no valido", "Error de validacion", JOptionPane.ERROR_MESSAGE);
             return false;
         }
+        
+        
+        
         
         if(precio < 0){
             JOptionPane.showMessageDialog(null, "Precio no valido", "Error de validacion", JOptionPane.ERROR_MESSAGE);
