@@ -290,7 +290,6 @@ public class IfrmRegistrarProducto extends javax.swing.JInternalFrame {
     private javax.swing.JButton btnSalir;
     private javax.swing.JCheckBox cbxAlimento;
     private javax.swing.JCheckBox cbxElectronico;
-    private com.toedter.calendar.JDateChooser dchFechaCaducidad;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel lblFabricante;
     private javax.swing.JLabel lblFechaCaducidad;
